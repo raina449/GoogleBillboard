@@ -7,7 +7,10 @@ public void setup()
       for(int i=2;i<e.length()-12;i++){
         section=e.substring(i,i+10);
         sectionNum=Double.parseDouble(section);   
-        if(isPrime(sectionNum)){System.out.println(sectionNum);}
+        if(isPrime(sectionNum)){
+          System.out.println(sectionNum);
+          break;
+        }
     }
 }  
 public void draw()  
